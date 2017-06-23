@@ -1,0 +1,2 @@
+\version "2.18.2"
+\score {\new ChoirStaff <<\new Staff <<\clef treble\new Voice {\voiceOne\absolute {\time 3/4 c''4 c''4 d''4 b'4. c''8 d''4 e''4 e''4 f''4 e''4. d''8 c''4 d''4 c''4 b'4 c''2.}}\new Voice {\voiceTwo\absolute {g'4 g'4 f'4 f'4. g'8 a'4 b'4 b'4 b'4 b'4. a'8 g'4 a'4 g'4 f'4 e'2.}}>>\new Staff <<\clef bass\new Voice {\voiceOne\absolute {e'4 c'4 b4 b4. c'8 d'4 e'4 e'4 d'4 e'4. d'8 c'4 d'4 c'4 b4 g2.}}\new Voice {\voiceTwo\absolute {c'4 e4 b4 d4. e8 f4 g4 g4 b,4 g,4. f,8 e,4 f,4 e,4 d4 c2.}}>>>>\midi{}\layout{}}
