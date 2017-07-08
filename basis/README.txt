@@ -1,5 +1,20 @@
+* Jul 08, 2017 -- redaction
 * Apr 25, 2017 -- updated the data
 * Nov 13, 2016 -- initial version
+
+Note: the attached code is a `starter pack' borrowed from a homework assignment
+for UW's CSE501 (Spring '17). The solution is redacted. The prompt is,
+
+> Design, implement, document, and test a checker, cycle-free-3?, that will
+> perform symbolic evaluation in time O(V+E). This is the core of the
+> assignment.
+> 
+> The trick is to ask the solver to compute together with the FVS also the
+> topological ordering of nodes. This will avoid the need to compute the
+> ordering using an explicit graph traversal. You have likely used the
+> topological sort order in your checker cycle-free-2?.
+
+
 
 For a thorough description of the problem this solves, you can read the
 following blog post.
